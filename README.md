@@ -5,11 +5,8 @@ A simple and practical **Electric Saving & Billing System** built using **Python
 This project simulates electricity consumption tracking, monthly unit limits, over-usage penalties, and user authentication using a command-line interface.
 
 It demonstrates real-world billing logic using core Python concepts such as classes, objects, lists, dictionaries, random number generation, and date-time handling.
-
 ---
-
 ## 🚀 Features
-
 - 👤 User Registration System
 - 🔐 Secure Login Authentication
 - ⚡ Random Monthly Electricity Consumption Simulation
@@ -18,7 +15,6 @@ It demonstrates real-world billing logic using core Python concepts such as clas
 - 🔄 Automatic Monthly Reset Detection
 - 🗂️ In-Memory Data Storage (List of Dictionaries)
 - 🧠 Object-Oriented Programming (OOP) Design
-
 ---
 
 ## 🛠️ Technologies Used
