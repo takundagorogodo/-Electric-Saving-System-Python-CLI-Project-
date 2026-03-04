@@ -18,33 +18,24 @@ It demonstrates real-world billing logic using core Python concepts such as clas
 ---
 
 ## 🛠️ Technologies Used
-
 - Python 3
 - datetime module
 - random module
 - Classes & Objects (OOP)
 - Lists & Dictionaries
 - Exception Handling
-
 ---
-
 ## 📂 Project Structure
-
 ```
 Electric-Saving-System/
 │
 ├── electric_system.py
 └── README.md
 ```
-
 ---
-
 ## 🧠 System Design Overview
-
 The system contains two main classes:
-
 ### 1️⃣ ElectricBill Class
-
 Handles:
 
 - Electricity usage tracking
@@ -52,26 +43,18 @@ Handles:
 - Over-usage fee calculation
 - Monthly reset logic
 - Random usage generation
-
 ---
-
 ### 2️⃣ Security Class
-
 Handles:
-
 - User registration
 - Login authentication
 - Storing user data in memory
 - Connecting user data to billing system
-
 ---
 
 ## 🗄️ Data Storage Structure
-
 All users are stored in a list called `database`.
-
 Example user structure:
-
 ```python
 {
     "name": "John",
