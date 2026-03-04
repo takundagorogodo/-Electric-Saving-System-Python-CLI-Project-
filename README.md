@@ -16,7 +16,6 @@ It demonstrates real-world billing logic using core Python concepts such as clas
 - 🗂️ In-Memory Data Storage (List of Dictionaries)
 - 🧠 Object-Oriented Programming (OOP) Design
 ---
-
 ## 🛠️ Technologies Used
 - Python 3
 - datetime module
@@ -37,7 +36,6 @@ Electric-Saving-System/
 The system contains two main classes:
 ### 1️⃣ ElectricBill Class
 Handles:
-
 - Electricity usage tracking
 - Remaining unit calculation
 - Over-usage fee calculation
@@ -51,7 +49,6 @@ Handles:
 - Storing user data in memory
 - Connecting user data to billing system
 ---
-
 ## 🗄️ Data Storage Structure
 All users are stored in a list called `database`.
 Example user structure:
@@ -64,21 +61,14 @@ Example user structure:
     "lastReset": datetime.now()
 }
 ```
-
 ---
-
 ## ⚙️ How the System Works
-
 ### 1️⃣ User Registration
-
 - User provides name and password
 - System checks if user already exists
 - If not, user is stored in database
-
 ---
-
 ### 2️⃣ User Login
-
 - User enters credentials
 - System verifies login
 - If successful:
@@ -86,74 +76,48 @@ Example user structure:
   - Monthly reset is checked
   - Units are updated
   - Usage report is displayed
-
 ---
-
 ## ⚡ Electricity Logic
-
 ### Monthly Unit Limit
-
 Default monthly limit:
-
 ```
 150 kWh
 ```
-
 ---
-
 ### Random Usage Simulation
-
 Each login simulates:
-
 ```
 30 – 200 kWh consumption
 ```
-
 ---
-
 ### Over-Usage Fee
-
 If:
-
 ```
 usedUnits > monthlyLimit
 ```
-
 Then:
-
 ```
 overUsedUnits = usedUnits - monthlyLimit
 fee = overUsedUnits × 1.4
 ```
-
 Example:
-
 ```
 Used: 180
 Limit: 150
 Overused: 30
 Fee: 30 × 1.4 = $42
 ```
-
 ---
-
 ### Monthly Reset Logic
-
 System checks:
-
 ```
 If current month ≠ lastReset month
 ```
-
 If true:
-
 - Units reset to 0
 - New billing cycle starts
-
 ---
-
 ## 🖥️ Sample Menu
-
 ```
 ====================================
         ELECTRIC SAVING SYSTEM
