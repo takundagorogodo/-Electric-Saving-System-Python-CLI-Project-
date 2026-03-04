@@ -234,7 +234,6 @@ After building this project, you understand:
 ---
 
 ## 🔮 Future Improvements
-
 - Save data permanently (JSON / Database)
 - Add admin dashboard
 - Add real-time billing history
@@ -243,16 +242,12 @@ After building this project, you understand:
 - Convert to Web App (Flask / Django)
 - Encrypt passwords
 - Add consumption reports & analytics
-
 ---
-
 ## 👨‍💻 Author
 
 Takundah Gorogodo  
 CSE Student | System Developer | Problem Solver
-
 ---
-
 ## 📄 License
 
 This project is open-source and created for educational purposes.  
