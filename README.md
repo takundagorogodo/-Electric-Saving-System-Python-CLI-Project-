@@ -127,31 +127,21 @@ If true:
 2) Login as Existing User
 3) Exit System
 ```
-
 ---
-
 ## ▶️ How to Run the Program
-
 ### Step 1: Check Python Installation
-
 ```
 python --version
 ```
-
 ---
-
 ### Step 2: Run the Program
-
 ```
 python electric_system.py
 ```
-
 or
-
 ```
 python3 electric_system.py
 ```
-
 ---
 
 ## 🧠 Concepts Practiced
@@ -193,6 +183,7 @@ After building this project, you understand:
 ## 👨‍💻 Author
 
 Takundah Gorogodo  
+
 CSE Student | System Developer | Problem Solver
 ---
 ## 📄 License
